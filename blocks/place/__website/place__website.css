@@ -1,0 +1,9 @@
+.place__website{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}

@@ -1,0 +1,28 @@
+.lead__subtitle{
+    margin: 32px 0 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    max-width: 640px;
+}
+
+/*Доп вставка*/
+@media screen and (max-width: 768px){
+    .lead__subtitle{
+        margin: 20px 0 0;
+        font-size: 21px;
+        line-height: 25px;
+        max-width: 448px;
+    }
+}
+
+@media screen and (max-width: 544px){
+    .lead__subtitle{
+        margin: 16px 0 0;
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 288px;
+    }
+}

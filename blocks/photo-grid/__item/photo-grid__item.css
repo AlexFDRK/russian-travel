@@ -1,0 +1,25 @@
+.photo-grid__item{
+    min-height: 213px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1152px){
+    .photo-grid__item{
+        min-height: 225px;
+    }
+
+}
+
+@media screen and (max-width: 896px){
+    .photo-grid__item{
+        min-height: 264px;
+    }
+}
+
+@media screen and (max-width: 544px){
+    .photo-grid__item{
+        min-height: 216px;
+    }
+}
