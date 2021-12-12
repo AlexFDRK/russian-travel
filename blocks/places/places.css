@@ -1,6 +1,34 @@
 .places{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: auto;
     gap: 80px;
+    margin: 0 100px;
+}
+
+/*половинная точка*/
+@media screen and (max-width: 1152px){
+    .places{
+        max-width: 1024px;
+        padding: 0 48px; 
+        margin: 0;
+    }
+}
+
+/*половинная точка*/
+@media screen and (max-width: 896px){
+    .places{
+        /*max-width: 768px;*/
+        width: auto;
+        padding: 0 24px;
+        gap: 73px;
+    }
+}
+
+/*половинная точка*/
+@media screen and (max-width: 544px){
+    .places{
+        padding: 0;
+        gap: 50px;
+    }
 }

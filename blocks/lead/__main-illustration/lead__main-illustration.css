@@ -1,9 +1,9 @@
 .lead__main-illustration{
-    width:100%;
     min-height: 615px;
     margin-top: 64px;
     background-image: url("../../../images/__image.png");
     background-size: cover;
+    width: 100%;
 }
 
 /*проверочная точка*/
@@ -17,7 +17,6 @@
 /*проверочная точка*/
 @media screen and (max-width: 896px){
     .lead__main-illustration{
-        padding: 0 24px 0 24px;
         min-height: 480px;
     }
 }
@@ -42,10 +41,10 @@
     }
 }
 
-@media screen and (max-width: 500px){
+/*проверочная точка*/
+@media screen and (max-width: 544px){
     .lead__main-illustration{
         margin-top: 40px;
-        padding: 0 16px 0 16px;
         min-height: 280px;
     }
 }

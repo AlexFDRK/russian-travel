@@ -1,0 +1,31 @@
+.footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*проверочная точка*/
+@media screen and (max-width: 1152px){
+    .footer{
+        padding: 0 48px;
+    }
+}
+
+/*проверочная точка*/
+@media screen and (max-width: 896px){
+    .footer{
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 666px){
+    .footer{
+        padding: 0 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 62px;
+    }
+}

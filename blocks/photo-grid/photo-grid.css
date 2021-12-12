@@ -3,19 +3,25 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
+    box-sizing: border-box;
 }
 
+/*проверочная точка*/
 @media screen and (max-width: 1152px){
     .photo-grid{
+        max-width: 1024px;
+        padding: 0 48px; 
         gap: 14px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
     }
-
 }
 
+/*проверочная точка*/
 @media screen and (max-width: 896px){
     .photo-grid{
+        width: auto;
+        padding: 0 24px;
         gap: 16px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
@@ -24,6 +30,7 @@
 
 @media screen and (max-width: 544px){
     .photo-grid{
+        padding: 0 16px;
         gap: 12px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(12, 1fr);
