@@ -1,6 +1,13 @@
 .place__article{
-   display: flex; 
+   display: flex;
    flex-direction: column;
    gap: 26px;
    width: 100%;
+   box-sizing: border-box;
+}
+
+@media screen and (max-width: 544px){
+   .place__article{
+      padding: 0 16px;
+   }
 }

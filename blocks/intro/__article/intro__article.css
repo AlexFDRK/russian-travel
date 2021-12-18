@@ -1,0 +1,11 @@
+.intro__article{
+    align-self: flex-start;
+    max-width: 690px;
+}
+
+/*проверочная точка*/
+@media screen and (max-width: 896px){
+    .intro__article{
+        width: auto;
+    }
+}

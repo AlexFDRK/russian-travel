@@ -8,8 +8,7 @@
     max-width: 640px;
 }
 
-/*Доп вставка*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 700px){
     .lead__subtitle{
         margin: 20px 0 0;
         font-size: 21px;

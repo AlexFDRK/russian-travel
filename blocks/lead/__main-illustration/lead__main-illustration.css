@@ -1,9 +1,9 @@
 .lead__main-illustration{
     min-height: 615px;
     margin-top: 64px;
-    background-image: url("../../../images/__image.png");
-    background-size: cover;
     width: 100%;
+    display: block;
+    object-fit: cover;
 }
 
 /*проверочная точка*/
@@ -18,12 +18,6 @@
 @media screen and (max-width: 896px){
     .lead__main-illustration{
         min-height: 480px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .lead__main-illustration{
-        min-height: 520px;
     }
 }
 
@@ -44,7 +38,6 @@
 /*проверочная точка*/
 @media screen and (max-width: 544px){
     .lead__main-illustration{
-        margin-top: 40px;
         min-height: 280px;
     }
 }

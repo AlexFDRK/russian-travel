@@ -1,27 +1,25 @@
 .intro{
-    align-self: flex-start;
-    max-width: 690px;
-    margin-left: 100px;
+    width: 984px;
+    margin: 0 auto;
 }
 
 /*проверочная точка*/
 @media screen and (max-width: 1152px){
     .intro{
-        margin-left: 48px;
+        width: 928px;
     }
 }
 
-/*проверочная точка*/
-@media screen and (max-width: 896px){
+@media screen and (max-width: 1000px){
     .intro{
+        width: auto;
         max-width: 720px;
         margin: 0 24px;
-        width: auto;
     }
 }
 
 @media screen and (max-width: 700px){
-    .intro{
+    intro{
         margin: 0 16px;
     }
 }
