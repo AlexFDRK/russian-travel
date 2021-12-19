@@ -2,7 +2,7 @@
 Alt-H1
 ------ 
 ##Проектная работа №3
-github: https://github.com/AlexFDRK/russian-travel
+https://alexfdrk.github.io/russian-travel/
 ###Использовались технологии:
 * html
 * css
