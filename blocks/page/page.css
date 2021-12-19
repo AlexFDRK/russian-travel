@@ -3,6 +3,12 @@
     max-width: 1280px;
     background-color: #2A2C2F;
     color: white;
-    margin: 0 auto;
+    margin: 28px auto 24px auto;
     font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (max-width: 544px){
+    .page{
+        margin-top: 16px;
+    }
 }

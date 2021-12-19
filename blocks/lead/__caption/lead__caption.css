@@ -5,6 +5,7 @@
     line-height: 14px;
     align-self: flex-start;
     text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 /*проверочная точка*/
@@ -12,12 +13,6 @@
     .lead__caption{
         margin-left: 24px;
     }
-}
-
-@media screen and (max-width: 600px){
-    .lead__caption{
-        margin-left: 16px;
-    } 
 }
 
 /*проверочная точка*/

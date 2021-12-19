@@ -11,12 +11,6 @@
     width: 100%;
 }
 
-@media screen and (max-width: 1152px){
-    .content{
-        margin: 0 auto 24px auto;
-    }
-}
-
 @media screen and (max-width: 896px){
     .content{
         gap: 88px;
